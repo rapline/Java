@@ -16,14 +16,14 @@ public class HelloWorld extends HttpServlet {
 
 		out.println("<html>");
 		out.println("<head>");
-		out.println("<title>データベーステスト</title>");
+		out.println("<title>お酒の種類リスト</title>");
 		out.println("</head>");
 		out.println("<body>");
 
 		Connection conn = null;
 		String url = "jdbc:mysql://localhost/Alc?characterEncoding=utf8";
-		String user = "AlcUser";
-		String password = "AlcUser";
+		String user = "****";
+		String password = "****";
 
 		try {
 		  Class.forName("com.mysql.jdbc.Driver").newInstance();
